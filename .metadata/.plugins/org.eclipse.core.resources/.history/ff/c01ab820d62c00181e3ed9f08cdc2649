@@ -1,0 +1,28 @@
+package com.cts;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.Month;
+public class LocalDateTime {
+	
+	
+
+
+		public static void main(String[] args) {
+			
+			
+			
+			//Creating LocalDateTime by providing input arguments
+			LocalDate specificDate = LocalDate.of(2017, Month.FEBRUARY, 10);
+			System.out.println("Specific Date="+specificDate);
+			LocalDate sixtyfifth2017 = LocalDate.ofYearDay(2017, 65);
+		    System.out.println(sixtyfifth2017);
+		    LocalTime fromSecondsOfDay = LocalTime.ofSecondOfDay(12345);
+		    LocalTime specificTime = LocalTime.of(2014,02,20,12);
+			System.out.println("Specific Time of Day="+specificTime);
+		}
+			
+				
+		}
+
+
