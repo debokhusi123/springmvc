@@ -50,12 +50,14 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Spring-Hibernatefirstproject-CRUD"/>
 			<item value="03_springmvc_hibernate"/>
 			<item value="002_SpringMVCFormExample"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Spring-Hibernatefirstproject-CRUD"/>
 			<item value="03_springmvc_hibernate"/>
 			<item value="002_SpringMVCFormExample"/>
 		</list>

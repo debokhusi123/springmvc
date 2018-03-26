@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="014springboot"/>
+<aop-project name="03_springmvc_hibernate">
+<aspect-definition advice-class-name="org.springframework.transaction.interceptor.TransactionInterceptor" advice-method-name="invoke" advice-method-parameter-types="org.aopalliance.intercept.MethodInvocation" advice-type="AROUND" aspect-end-line-number="51" aspect-name="org.springframework.transaction.interceptor.TransactionInterceptor#03_springmvc_hibernate#WebContent/WEB-INF/springhibernate-servlet.xml#51" aspect-start-line-number="51" factory-id="org.springframework.ide.eclipse.aop.core.javaAdvisorDefinitionElementFactory" file="/03_springmvc_hibernate/WebContent/WEB-INF/springhibernate-servlet.xml" pointcut-expression="(@within(org.springframework.transaction.annotation.Transactional) || @annotation(org.springframework.transaction.annotation.Transactional)) &amp;&amp; execution(* *..*(..))" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:03_springmvc_hibernate|3:WebContent/WEB-INF/springhibernate-servlet.xml|7:beans:12|8:employeeService:12" bean-file="/03_springmvc_hibernate/WebContent/WEB-INF/springhibernate-servlet.xml" bean-start-line="12" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/03_springmvc_hibernate/WebContent/WEB-INF/springhibernate-servlet.xml" source="=03_springmvc_hibernate/D:\/maven_repository\/org\/springframework\/spring-tx\/4.2.0.RELEASE\/spring-tx-4.2.0.RELEASE.jar&lt;org.springframework.transaction.interceptor(TransactionInterceptor.class[TransactionInterceptor~invoke~Lorg.aopalliance.intercept.MethodInvocation;" source-start-line="-1" target="=03_springmvc_hibernate/src&lt;com.springmvc.hibernate.service{EmployeeService.java[EmployeeService~saveEmployee~QEmployeeEntity;" target-start-line="17"/>
+</aspect-definition>
+</aop-project>
 <aop-project name="012MavenSpringCore"/>
 </aop-reference-model>
